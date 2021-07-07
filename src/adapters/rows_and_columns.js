@@ -47,19 +47,6 @@ export function columns_and_rows_table1(
     });
   });
 
-  //   const values_for_rows = data_rows.map((data_row_item, index) => {
-  //     var myObject = {};
-  //     columns.map((column_item, index) => {
-  //       return {
-  //         index: data_row_item[index],
-  //       };
-  //       // return {
-  //       //   title: data_row_item,
-  //       //   field: index,
-  //       //   editable: "never",
-  //       // };
-  //     });
-
   //     console.log(values_for_columns);
 
   return { columns: columns, rows: data_rows };
